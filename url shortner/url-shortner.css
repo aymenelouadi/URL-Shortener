@@ -1,0 +1,107 @@
+::selection {
+  background-color: #ff0055;
+  color: white !important;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9f4362;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 20px 50px;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  input:is(:focus, :valid) {
+    border: 1px solid #ff0055c6;
+  }
+  
+  .shorten-btn {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shorten-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  #shortenedUrl {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #shortenedUrl a {
+    color: #ff0055c6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #button {
+    padding: 12px 20px;
+    font-size: 11.8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0055c6;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #button:hover {
+    background-color: #ff0055;
+  }
+
+
+
+
+
+
+
+
+
+
+  .back-to-website {
+    font-family: sans-serif;
+    position: fixed;
+    bottom: 20px; /* تعديل الارتفاع عند الحاجة */
+    right: 20px; /* تعديل الانحراف عند الحاجة */
+    background-color: #000000; /* لون الخلفية */
+    color: #ffffff; /* لون النص */
+    padding: 10px 20px; /* هنا يمكنك ضبط الحشوات بما يتناسب مع التصميم */
+    border-radius: 5px; /* لتقويس حواف الزر */
+    text-decoration: none; /* إزالة التزيين الافتراضي للرابط */
+    transition: background-color 0.3s; /* تأثير انتقالي للتغييرات في الخلفية */
+  }
+  
+  .back-to-website:hover {
+    background-color: #e91e63; /* تغيير لون الخلفية عند تحويم الماوس */
+    border-color: #e91e63;
+    box-shadow: 0 0 10px #00000074;
+  }
